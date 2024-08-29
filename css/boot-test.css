@@ -238,11 +238,17 @@ left: 44%;
 top: 104px;
 left: 48%;
 }
-.darsh a i:hover{
+.footerIcon a i:hover{
 color: #ff0000 !important;
 
 }
-.darsh a i{
+.footerIcon a i{
 transition: 0.5s all;
 
 }
+
+@media only screen and (max-width: 700px) {
+    #testimonial{
+        display: none;
+    }
+  }
