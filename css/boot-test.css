@@ -1,0 +1,248 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color:#212529;
+}
+.navbar{background-color: transparent;}
+.head{
+    background-image: url(../photo/hero-bg.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100vh
+}
+.hello{
+  position: relative ;
+  top: 300px;
+}
+.hello h1{
+    font-weight: 700;
+}
+
+.image-about {
+
+    position: relative;
+    top: 20px;
+    left: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.parent-image{
+    border: 9px solid #555555;
+    width: 70%;
+    border-radius: 10px;
+    
+}
+
+
+
+
+.layer{
+    background-color:rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translatey(100%);
+    transition: 0.5s all;
+}
+
+
+.icons a i{
+    font-size: 25px;
+    padding: 10px;
+    color: white;
+    transition: 0.5s all;
+}
+.parent-image:hover .layer{
+    transform: translatey(0);
+}
+.icons a i:hover{
+    color: #ff305b;
+    
+}
+.design:hover{
+    background-color: white;
+}
+.design:hover i{
+    transform: rotate(360deg) scale(3);
+    -webkit-transform: rotate(360deg) scale(3);
+    -moz-transform: rotate(360deg) scale(3);
+    -ms-transform: rotate(360deg) scale(3);
+    -o-transform: rotate(360deg) scale(3);
+}
+.design i{
+    transition:1s all ;
+    -webkit-transition:1s all ;
+    -moz-transition:1s all ;
+    -ms-transition:1s all ;
+    -o-transition:1s all ;
+    transform-origin: 70% center  ;
+    color: #ff305b;
+}
+.parent-services{
+    background-color: #F1F1F1;
+}
+
+.layer2{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  
+}
+
+    
+
+.layer2:hover{
+    background-color:#2125298c;
+
+}
+
+.de4a{
+    background-color: #f1f1f1;
+}
+
+
+.footer{
+
+    background-color:#333333;   
+}
+.services h1::after{ 
+    content: "";
+    background-color: red;
+    width: 13%;
+    height: 2px;
+    position: absolute;
+top: 110px;
+left: 44%;
+}
+.services h1::before{ 
+    content: "";
+   background-color:transparent;
+   border: 2px solid red;
+   width: 7%;
+   height: 15px;
+   border-left: transparent;
+   border-right: transparent;
+    position: absolute;
+top: 104px;
+left: 48%;
+}
+
+.services{
+position: relative;
+}
+
+.Our-Portfolio{
+    position: relative;
+}
+.Our-Portfolio h1::after{
+    content: "";
+    background-color: red;
+    width: 13%;
+    height: 2px;
+    position: absolute;
+top: 110px;
+left: 44%;
+}
+.Our-Portfolio h1::before{ 
+    content: "";
+   background-color:transparent;
+   border: 2px solid red;
+   width: 7%;
+   height: 15px;
+   border-left: transparent;
+   border-right: transparent;
+    position: absolute;
+top: 104px;
+left: 48%;
+}
+.Feedback{
+    position: relative;
+}
+.Feedback h1::after{
+    content: "";
+    background-color: red;
+    width: 13%;
+    height: 2px;
+    position: absolute;
+top: 110px;
+left: 44%;
+}
+.Feedback h1::before{ 
+    content: "";
+   background-color:transparent;
+   border: 2px solid red;
+   width: 7%;
+   height: 15px;
+   border-left: transparent;
+   border-right: transparent;
+    position: absolute;
+top: 104px;
+left: 48%;
+}
+.blog{
+    position: relative;
+}
+.blog h1::after{
+    content: "";
+    background-color: red;
+    width: 13%;
+    height: 2px;
+    position: absolute;
+top: 110px;
+left: 44%;
+}
+.blog h1::before{ 
+    content: "";
+   background-color:transparent;
+   border: 2px solid red;
+   width: 7%;
+   height: 15px;
+   border-left: transparent;
+   border-right: transparent;
+    position: absolute;
+top: 104px;
+left: 48%;
+}
+.Contact-Us{
+    position: relative;
+}
+.Contact-Us h1::after{
+    content: "";
+    background-color: red;
+    width: 13%;
+    height: 2px;
+    position: absolute;
+top: 110px;
+left: 44%;
+}
+.Contact-Us h1::before{ 
+    content: "";
+   background-color:transparent;
+   border: 2px solid red;
+   width: 7%;
+   height: 15px;
+   border-left: transparent;
+   border-right: transparent;
+    position: absolute;
+top: 104px;
+left: 48%;
+}
+.darsh a i:hover{
+color: #ff0000 !important;
+
+}
+.darsh a i{
+transition: 0.5s all;
+
+}
